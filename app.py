@@ -9,7 +9,7 @@ data = [
     {'Trip ID': 3, 'Start Date': '2023-11-05', 'End Date': '2023-11-06', 'Distance': 180, 'Duration': 4, 'Savings': 250}
 ]
 
-# Initialize session state
+# Initialize session state    
 if 'tabs' not in st.session_state:
     st.session_state.tabs = []  # Store tab data as a list of dictionaries
 if 'selected_tab' not in st.session_state:
